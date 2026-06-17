@@ -546,3 +546,10 @@ a:hover { text-decoration: underline; }
 .announcement__text { font-size: 0.75rem; font-weight: 500; color: var(--vc-green-soft); letter-spacing: 0.02em; }
 .announcement__text strong { color: var(--vc-mint); font-weight: 700; }
 .announcement__dot { width: 3px; height: 3px; border-radius: 50%; background: var(--vc-green); opacity: 0.5; flex-shrink: 0; }
+
+/* Announcement strip */
+.announcement { background: var(--vc-green-deep); border-bottom: 1px solid rgba(124,255,178,0.2); padding: 0.6rem 0; text-align: center; }
+.announcement__inner { display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+.announcement__text { font-size: 0.75rem; font-weight: 500; color: var(--vc-green-soft); letter-spacing: 0.02em; }
+.announcement__text strong { color: var(--vc-mint); font-weight: 700; }
+.announcement__dot { width: 3px; height: 3px; border-radius: 50%; background: var(--vc-green); opacity: 0.5; flex-shrink: 0; }
