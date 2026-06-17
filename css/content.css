@@ -332,3 +332,68 @@ a:hover { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ================================================================
+   AUDIT REPORT WIDGET (hero right panel)
+================================================================ */
+.audit-report { background: var(--vc-surface); border: 1px solid var(--vc-border); border-radius: 16px; overflow: hidden; font-family: var(--font-sans); }
+.audit-report__header { padding: 1.1rem 1.4rem; border-bottom: 1px solid var(--vc-border); display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; background: var(--vc-surface-up); }
+.audit-report__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--vc-text); margin-bottom: 0.15rem; }
+.audit-report__company { font-size: 0.65rem; color: var(--vc-text-subtle); letter-spacing: 0.02em; }
+.audit-report__badge { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.22rem 0.65rem; border-radius: 999px; background: var(--leak-soft); color: var(--leak); white-space: nowrap; flex-shrink: 0; margin-top: 0.1rem; }
+.audit-report__stages { padding: 0.2rem 0; }
+.ar-stage { display: flex; align-items: center; justify-content: space-between; padding: 0.7rem 1.4rem; border-bottom: 1px solid var(--vc-border); gap: 0.75rem; }
+.ar-stage:last-child { border-bottom: none; }
+.ar-stage--issue { background: rgba(217,95,82,0.025); }
+.ar-stage--warn { background: rgba(201,151,74,0.025); }
+.ar-stage__left { display: flex; align-items: center; gap: 0.6rem; min-width: 0; }
+.ar-stage__num { font-size: 0.58rem; font-weight: 700; color: var(--vc-text-subtle); letter-spacing: 0.06em; flex-shrink: 0; width: 1rem; }
+.ar-stage__dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; border: 1px solid; }
+.ar-stage__dot--ok { background: rgba(124,255,178,0.2); border-color: var(--vc-green); }
+.ar-stage__dot--leak { background: var(--leak-soft); border-color: var(--leak); box-shadow: 0 0 4px rgba(217,95,82,0.28); }
+.ar-stage__dot--warn { background: rgba(201,151,74,0.14); border-color: var(--brass); }
+.ar-stage__name { font-size: 0.75rem; font-weight: 600; color: var(--vc-text); letter-spacing: -0.01em; white-space: nowrap; }
+.ar-stage--issue .ar-stage__name { color: var(--vc-text-muted); }
+.ar-stage__right { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
+.ar-stage__note { font-size: 0.62rem; color: var(--vc-text-subtle); white-space: nowrap; }
+.ar-stage--issue .ar-stage__note { color: rgba(217,95,82,0.65); }
+.ar-stage--warn .ar-stage__note { color: rgba(201,151,74,0.75); }
+.ar-stage__status { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.45rem; border-radius: 999px; white-space: nowrap; }
+.ar-status--ok { background: rgba(124,255,178,0.1); color: var(--vc-green); }
+.ar-status--leak { background: var(--leak-soft); color: var(--leak); }
+.ar-status--warn { background: var(--brass-soft); color: var(--brass); }
+.audit-report__footer { padding: 1rem 1.4rem; border-top: 1px solid var(--vc-border); background: var(--vc-surface-up); display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.audit-report__finding-label { font-size: 0.58rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--vc-text-subtle); display: block; margin-bottom: 0.18rem; }
+.audit-report__finding-val { font-size: 0.72rem; font-weight: 600; color: var(--leak); }
+
+/* ================================================================
+   IMPROVEMENTS SECTION — warm, 2-col grid
+================================================================ */
+.improvements { background: var(--lt-bg); padding: 6rem 0; }
+.improvements__header { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 3.5rem; }
+.improvements__header h2 { font-family: var(--font-disp); font-weight: 600; font-size: clamp(1.9rem, 3vw, 2.4rem); color: var(--lt-text); letter-spacing: -0.02em; line-height: 1.08; margin-top: 0.75rem; }
+.improvements__header p { font-size: 0.875rem; color: var(--lt-muted); line-height: 1.7; }
+.improvements__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--lt-border); border: 1px solid var(--lt-border); border-radius: 12px; overflow: hidden; }
+.improvement-item { background: #FDFAF5; padding: 2rem; }
+.improvement-item:nth-child(even) { background: var(--lt-bg); }
+.improvement-item__area { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lt-subtle); margin-bottom: 0.6rem; }
+.improvement-item__title { font-size: 0.95rem; font-weight: 600; color: var(--lt-text); letter-spacing: -0.02em; line-height: 1.35; margin-bottom: 1rem; }
+.improvement-item__list { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+.improvement-item__list li { font-size: 0.8rem; color: var(--lt-muted); line-height: 1.5; display: flex; gap: 0.5rem; }
+.improvement-item__list li::before { content: '→'; color: var(--vc-green-deep); font-weight: 700; flex-shrink: 0; font-size: 0.72rem; margin-top: 0.1rem; }
+
+/* ================================================================
+   AUDIT CHECKLIST TAGS
+================================================================ */
+.wyg__checklist { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--lt-border); }
+.wyg__checklist-label { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lt-subtle); margin-bottom: 0.75rem; }
+.wyg__checklist-items { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.wyg__check { font-size: 0.7rem; font-weight: 500; color: var(--lt-text); background: var(--lt-bg-soft); border: 1px solid var(--lt-border); border-radius: 999px; padding: 0.25rem 0.7rem; }
+
+/* ================================================================
+   RESPONSIVE ADDITIONS
+================================================================ */
+@media (max-width: 900px) {
+  .improvements__header { grid-template-columns: 1fr; gap: 1.5rem; }
+  .improvements__grid { grid-template-columns: 1fr; }
+}
