@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Lead System Rebuild — Field Notes | VonClaro</title>
+  <meta name="description" content="An HVAC account diagnostic: no conversion tracking, seasonal budget misallocation, Smart Bidding optimizing toward nothing. How the system was rebuilt." />
+  <link rel="stylesheet" href="/css/content.css" />
+  <link rel="icon" href="https://vonclaro.com/favicon.png" />
+</head>
+<body>
+<nav class="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">VonClaro <span class="nav__logo-sep">/</span> Home Services</a>
+      <ul class="nav__links">
+        <li><a href="/articles/">Articles</a></li>
+        <li><a href="/case-studies/">Field Notes</a></li>
+        <li><a href="/#audit">Audit</a></li>
+      </ul>
+      <a href="/#audit" class="btn btn--primary btn--sm">Get a Free Lead System Audit</a>
+    </div>
+  </div>
+</nav>
+
+<div class="report-hero">
+  <div class="container">
+    <div class="report-hero__eyebrow">Lead System Rebuild — Field Notes</div>
+    <div class="report-hero__grid">
+      <div>
+        <h1>HVAC — Zero conversion tracking, seasonal budget misallocation</h1>
+        <div class="report-hero__primary-leak">
+          <p class="report-hero__pl-label">Primary leak</p>
+          <p class="report-hero__pl-val">Spend running for two years with no tracked conversions. Smart Bidding learning from no signal. Seasonal budget shifting between AC and furnace campaigns without data to guide it.</p>
+        </div>
+      </div>
+      <div class="report-meta">
+        <div class="report-meta__header">
+          <p class="report-meta__title">Diagnostic Status</p>
+          <div class="report-meta__status">
+            <span class="report-meta__status-dot"></span>
+            <span class="report-meta__status-text">Optimizing blind</span>
+          </div>
+        </div>
+        <div class="report-meta__rows">
+          <div class="report-meta__row"><span class="report-meta__row-label">Trade</span><span class="report-meta__row-val">HVAC</span></div>
+          <div class="report-meta__row"><span class="report-meta__row-label">Market</span><span class="report-meta__row-val">Pacific Northwest, USA</span></div>
+          <div class="report-meta__row"><span class="report-meta__row-label">Spend range</span><span class="report-meta__row-val">$8,000–$15,000/mo (illustrative)</span></div>
+          <div class="report-meta__row">
+            <span class="report-meta__row-label">System areas</span>
+            <div class="report-meta__areas">
+              <span class="report-meta__area">Conversion Tracking</span>
+              <span class="report-meta__area">Campaign Structure</span>
+              <span class="report-meta__area">Seasonal Budget</span>
+              <span class="report-meta__area">Landing Pages</span>
+              <span class="report-meta__area">Attribution</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="report-body">
+
+  <div class="report-section">
+    <div class="container">
+      <div class="report-section__inner">
+        <span class="report-section__label">The Situation</span>
+        <div class="report-section__content">
+          <h2>Two years of spend with no tracked outcomes</h2>
+          <p>An HVAC company operating in the Pacific Northwest, running Google Ads for residential and light commercial service. Monthly spend in the range that would be significant for most operators — but generating no measurable data. The previous agency sent click and impression reports. There was nothing on booked calls or service appointments.</p>
+          <p>The account had 23 ad groups across four campaigns, several with overlapping keywords. All campaigns ran on manual CPC. Smart Bidding had been attempted briefly and abandoned because "it didn't work" — what actually happened was that Smart Bidding had no conversion signal to learn from, so it defaulted to random optimization and performance dropped.</p>
+          <div class="report-callout">
+            <p><strong>Operational note:</strong> Source: Google Ads — not passed to CRM. Booked job source: unknown. This was the status of every job booked from ads. Revenue existed. Attribution did not.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="report-section">
+    <div class="container">
+      <div class="report-section__inner">
+        <span class="report-section__label">What the Audit Found</span>
+        <div class="report-section__content">
+          <h2>No foundation for optimization</h2>
+          <ul class="report-checklist">
+            <li>Zero conversion tracking — no call tracking, no form submission events, no imported CRM data</li>
+            <li>23 ad groups with overlapping keywords competing against each other within the same account</li>
+            <li>Homepage as destination for all campaigns — 6-second mobile load time, newsletter popup firing within 3 seconds</li>
+            <li>Seasonal budget allocation based on intuition — AC budget high in shoulder seasons, furnace budget high when demand had already peaked</li>
+            <li>Maintenance and tune-up campaigns running alongside emergency repair campaigns — very different job values, same bidding logic</li>
+            <li>Quality Scores of 3–5 across primary service keywords, driving up CPCs relative to competitors with better account structure</li>
+          </ul>
+          <div class="report-leak-map">
+            <div class="rlm__header"><p class="rlm__title">Lead Leak Map — HVAC Account</p></div>
+            <div class="rlm__stages">
+              <div class="rlm__stage"><div class="rlm__dot rlm__dot--ok"></div><span class="rlm__stage-name">Ad Campaign</span><span class="rlm__stage-note">Running, spend active</span><span class="rlm__badge rlm-badge--ok">Active</span></div>
+              <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Landing Page</span><span class="rlm__stage-note">Homepage, 6s load, popup</span><span class="rlm__badge rlm-badge--leak">Leaking</span></div>
+              <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Call / Form Tracking</span><span class="rlm__stage-note">No tracking configured</span><span class="rlm__badge rlm-badge--leak">Blind spot</span></div>
+              <div class="rlm__stage"><div class="rlm__dot rlm__dot--warn"></div><span class="rlm__stage-name">Follow-Up</span><span class="rlm__stage-note">Manual process</span><span class="rlm__badge rlm-badge--warn">At risk</span></div>
+              <div class="rlm__stage"><div class="rlm__dot rlm__dot--warn"></div><span class="rlm__stage-name">Estimate / Booking</span><span class="rlm__stage-note">Some converting</span><span class="rlm__badge rlm-badge--warn">Partial</span></div>
+              <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Booked Job</span><span class="rlm__stage-note">Source: not in CRM</span><span class="rlm__badge rlm-badge--leak">Unattributed</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="report-section">
+    <div class="container">
+      <div class="report-section__inner">
+        <span class="report-section__label">What Was Rebuilt</span>
+        <div class="report-section__content">
+          <h2>Tracking first, then structure, then optimization</h2>
+          <p>The rebuild started with tracking because no other change would produce useful data without it. The sequence matters: install the measurement layer, observe the baseline, then restructure.</p>
+          <ul class="report-checklist report-checklist--fixed">
+            <li>CallRail installed with dynamic number insertion — every call attributed to its source campaign, ad group, and keyword</li>
+            <li>Google Tag Manager configured to fire form conversion events on actual submissions, with 90-second minimum call duration to filter misfires</li>
+            <li>Campaigns run as-is for two weeks before restructuring to observe baseline data with tracking in place</li>
+            <li>23 ad groups consolidated into 7 organized by service type: AC repair, AC install, furnace repair, furnace install, heat pump, maintenance, emergency</li>
+            <li>Dedicated landing pages built for each campaign — mobile-optimized, no popup for paid traffic, under 2-second load time</li>
+            <li>Homepage popup excluded for all paid traffic via URL parameter targeting</li>
+            <li>Seasonal budget triggers documented — AC budget scaled 6 weeks before peak, not reactively</li>
+            <li>Maintenance campaign budget reduced after tracking revealed cost per booking was not justified by average job value</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="report-section">
+    <div class="container">
+      <div class="report-section__inner">
+        <span class="report-section__label">What Changed</span>
+        <div class="report-section__content">
+          <h2>Visibility first, then improvement</h2>
+          <p>The most significant change was not in performance — it was in what the account owner could see. For the first time, every campaign had a measurable output: calls, form submissions, and over time, booked jobs connected to their source.</p>
+          <p>Budget reallocation became data-driven within the first 30 days. The furnace repair campaign was generating more leads per dollar than any other. The maintenance campaign was generating leads at a cost that exceeded the average job value. Those findings changed where money went.</p>
+          <p><strong>Smart Bidding, running on real conversion data for the first time, improved materially.</strong> The quality of targeting improved as the system learned what a genuine conversion looked like versus a low-quality click.</p>
+          <div class="report-callout">
+            <p>These are directional patterns based on what typically happens when HVAC tracking is rebuilt from scratch. Specific outcomes vary by market and account history.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="report-section">
+    <div class="container">
+      <div class="report-section__inner">
+        <span class="report-section__label">Check Your Account</span>
+        <div class="report-section__content">
+          <h2>What to check in an HVAC account</h2>
+          <ul class="report-checklist report-checklist--check">
+            <li>Can you see how many phone calls each campaign generated last month?</li>
+            <li>Is your conversion tracking recording actual service bookings or just page visits?</li>
+            <li>Are AC and furnace campaigns running on separate budgets that adjust seasonally?</li>
+            <li>Are maintenance and emergency repair campaigns separated, given the difference in job value?</li>
+            <li>Does paid traffic land on pages built for HVAC service conversion, or a general homepage?</li>
+            <li>Is every booked job in your CRM or scheduling system tagged with its ad source?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<section class="report-cta">
+  <div class="container">
+    <div class="report-cta__inner">
+      <div class="report-cta__copy">
+        <h2>Is your HVAC account running blind?</h2>
+        <p>Most HVAC accounts we audit have some version of this problem: spend flowing, calls happening, and no way to connect the two. The audit identifies every gap in the tracking, attribution, and conversion path — and tells you exactly what to fix first.</p>
+        <p>Written diagnostic. No obligation. Delivered within 2 business days.</p>
+      </div>
+      <form class="report-cta__form" name="hvac-audit" method="POST" data-netlify="true" action="/thank-you.html">
+        <input type="hidden" name="form-name" value="hvac-audit" />
+        <div class="form-group"><label for="name">Your name</label><input type="text" id="name" name="name" placeholder="Jane Smith" required /></div>
+        <div class="form-group"><label for="email">Work email</label><input type="email" id="email" name="email" placeholder="jane@hvacpro.com" required /></div>
+        <div class="form-group"><label for="website">Website</label><input type="url" id="website" name="website" placeholder="https://hvacpro.com" /></div>
+        <div class="form-group"><label for="budget">Monthly ad spend</label>
+          <select id="budget" name="budget"><option value="" disabled selected>Select range</option><option value="under-2k">Under $2,000/mo</option><option value="2k-5k">$2,000 – $5,000/mo</option><option value="5k-15k">$5,000 – $15,000/mo</option><option value="15k-plus">$15,000+/mo</option></select>
+        </div>
+        <button type="submit" class="form-submit-btn">Request My Lead System Audit</button>
+        <p class="form-note">Written diagnostic delivered within 2 business days.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <span class="footer__brand">VonClaro / Home Services Growth</span>
+      <ul class="footer__links">
+        <li><a href="/articles/">Articles</a></li>
+        <li><a href="/case-studies/">Field Notes</a></li>
+        <li><a href="/#audit">Get a Free Lead System Audit</a></li>
+        <li><a href="https://vonclaro.com">VonClaro.com</a></li>
+      </ul>
+    </div>
+    <p class="footer__copy">&copy; 2025 VonClaro Inc. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

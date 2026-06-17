@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landscaping Lead System Rebuild — Field Notes | VonClaro</title>
+  <meta name="description" content="A landscaping account diagnostic: service area mismatch, seasonal budget gaps, no tracking. How the lead system was rebuilt for seasonal demand." />
+  <link rel="stylesheet" href="/css/content.css" />
+  <link rel="icon" href="https://vonclaro.com/favicon.png" />
+</head>
+<body>
+<nav class="nav"><div class="container"><div class="nav__inner">
+  <a href="/" class="nav__logo">VonClaro <span class="nav__logo-sep">/</span> Home Services</a>
+  <ul class="nav__links"><li><a href="/articles/">Articles</a></li><li><a href="/case-studies/">Field Notes</a></li><li><a href="/#audit">Audit</a></li></ul>
+  <a href="/#audit" class="btn btn--primary btn--sm">Get a Free Lead System Audit</a>
+</div></div></nav>
+
+<div class="report-hero">
+  <div class="container">
+    <div class="report-hero__eyebrow">Lead System Rebuild — Field Notes</div>
+    <div class="report-hero__grid">
+      <div>
+        <h1>Landscaping — Service area mismatch, seasonal budget gaps, no tracking</h1>
+        <div class="report-hero__primary-leak">
+          <p class="report-hero__pl-label">Primary leak</p>
+          <p class="report-hero__pl-val">Spring demand flowing into poorly targeted service areas. Budget running in off-season with no shutoff logic. Zero tracking on which campaigns generated actual quote requests.</p>
+        </div>
+      </div>
+      <div class="report-meta">
+        <div class="report-meta__header"><p class="report-meta__title">Diagnostic Status</p><div class="report-meta__status"><span class="report-meta__status-dot"></span><span class="report-meta__status-text">Seasonal spend misaligned</span></div></div>
+        <div class="report-meta__rows">
+          <div class="report-meta__row"><span class="report-meta__row-label">Trade</span><span class="report-meta__row-val">Landscaping / Lawn Care</span></div>
+          <div class="report-meta__row"><span class="report-meta__row-label">Market</span><span class="report-meta__row-val">Suburban US market</span></div>
+          <div class="report-meta__row"><span class="report-meta__row-label">Spend range</span><span class="report-meta__row-val">$2,000–$6,000/mo peak (illustrative)</span></div>
+          <div class="report-meta__row"><span class="report-meta__row-label">System areas</span><div class="report-meta__areas"><span class="report-meta__area">Service Area</span><span class="report-meta__area">Seasonal Budget</span><span class="report-meta__area">Tracking</span><span class="report-meta__area">Landing Pages</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="report-body">
+  <div class="report-section"><div class="container"><div class="report-section__inner">
+    <span class="report-section__label">What the Audit Found</span>
+    <div class="report-section__content">
+      <h2>Spend reaching the wrong areas at the wrong time</h2>
+      <p>A landscaping company running year-round campaigns without seasonal adjustment logic. Spring and fall were peak demand periods — but budget was allocated evenly across all months. Off-season clicks were generating clicks from homeowners not ready to buy for another two months.</p>
+      <p>Geographic targeting was set to a radius that extended well beyond the company's actual service area. Clicks coming from 40+ minutes away — jobs that would never be booked because of travel time — were consuming a significant portion of monthly budget.</p>
+      <ul class="report-checklist">
+        <li>Service area targeting set to a 40-mile radius — actual service area was 15 miles</li>
+        <li>Budget consistent year-round — no peak-season scaling, no off-season reduction</li>
+        <li>No conversion tracking — quote request forms not attributed to any campaign</li>
+        <li>Single landing page for all services: lawn care, landscape design, seasonal cleanups — no service-specific pages</li>
+        <li>Quote requests going to email, manually followed up with no automation</li>
+      </ul>
+      <div class="report-leak-map">
+        <div class="rlm__header"><p class="rlm__title">Lead Leak Map — Landscaping Account</p></div>
+        <div class="rlm__stages">
+          <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Ad Campaign</span><span class="rlm__stage-note">Wrong areas, wrong timing</span><span class="rlm__badge rlm-badge--leak">Misaligned</span></div>
+          <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Landing Page</span><span class="rlm__stage-note">Generic, all services mixed</span><span class="rlm__badge rlm-badge--leak">Weak match</span></div>
+          <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Form Tracking</span><span class="rlm__stage-note">Quote requests not attributed</span><span class="rlm__badge rlm-badge--leak">Blind spot</span></div>
+          <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Follow-Up</span><span class="rlm__stage-note">Manual, no automation</span><span class="rlm__badge rlm-badge--leak">Slow</span></div>
+          <div class="rlm__stage"><div class="rlm__dot rlm__dot--warn"></div><span class="rlm__stage-name">Quote Request</span><span class="rlm__stage-note">Some converting</span><span class="rlm__badge rlm-badge--warn">Partial</span></div>
+          <div class="rlm__stage rlm__stage--leak"><div class="rlm__dot rlm__dot--leak"></div><span class="rlm__stage-name">Booked Job</span><span class="rlm__stage-note">Source: unknown</span><span class="rlm__badge rlm-badge--leak">Unattributed</span></div>
+        </div>
+      </div>
+    </div>
+  </div></div></div>
+
+  <div class="report-section"><div class="container"><div class="report-section__inner">
+    <span class="report-section__label">What Was Rebuilt</span>
+    <div class="report-section__content">
+      <h2>Service area tightened, seasonal budget logic added, tracking installed</h2>
+      <ul class="report-checklist report-checklist--fixed">
+        <li>Geographic targeting tightened to actual service area — postal codes and city-level targeting replacing the radius approach</li>
+        <li>Seasonal budget calendar created: peak budget in spring and fall, reduced in summer, minimal in winter with brand-only campaigns</li>
+        <li>Service-specific landing pages created: lawn care maintenance, landscape design quotes, seasonal cleanups — separate pages, separate conversion paths</li>
+        <li>Form conversion tracking installed — every quote request attributed to the campaign that drove it</li>
+        <li>Automated SMS confirmation sent to every form submission within 2 minutes</li>
+        <li>Negative keywords added: DIY lawn care, grass seed, fertilizer, tools, rental equipment</li>
+      </ul>
+    </div>
+  </div></div></div>
+
+  <div class="report-section"><div class="container"><div class="report-section__inner">
+    <span class="report-section__label">Check Your Account</span>
+    <div class="report-section__content">
+      <h2>What to check in a landscaping account</h2>
+      <ul class="report-checklist report-checklist--check">
+        <li>Does your geographic targeting match your actual service area, or is it broader than you can realistically serve?</li>
+        <li>Does your budget scale up during peak demand months and reduce in the off-season?</li>
+        <li>Are lawn maintenance, landscape design, and seasonal cleanup in separate campaigns?</li>
+        <li>Can you see which campaigns generated quote requests last month?</li>
+        <li>Do quote requests get an automated response within minutes, or sit in an inbox until someone checks it?</li>
+      </ul>
+    </div>
+  </div></div></div>
+</div>
+
+<section class="report-cta"><div class="container"><div class="report-cta__inner">
+  <div class="report-cta__copy">
+    <h2>Is your landscaping account reaching the wrong areas at the wrong time?</h2>
+    <p>Service area mismatch and poor seasonal logic are the two fastest ways to waste a landscaping budget. The audit finds both and tells you exactly what to fix before the next season starts.</p>
+  </div>
+  <form class="report-cta__form" name="landscaping-audit" method="POST" data-netlify="true" action="/thank-you.html">
+    <input type="hidden" name="form-name" value="landscaping-audit" />
+    <div class="form-group"><label for="name">Your name</label><input type="text" id="name" name="name" required /></div>
+    <div class="form-group"><label for="email">Work email</label><input type="email" id="email" name="email" required /></div>
+    <div class="form-group"><label for="website">Website</label><input type="url" id="website" name="website" /></div>
+    <div class="form-group"><label for="budget">Monthly ad spend</label><select id="budget" name="budget"><option value="" disabled selected>Select range</option><option>Under $2,000/mo</option><option>$2,000 – $5,000/mo</option><option>$5,000 – $15,000/mo</option><option>$15,000+/mo</option></select></div>
+    <button type="submit" class="form-submit-btn">Request My Lead System Audit</button>
+    <p class="form-note">Written diagnostic delivered within 2 business days.</p>
+  </form>
+</div></div></section>
+
+<footer class="footer"><div class="container"><div class="footer__inner">
+  <span class="footer__brand">VonClaro / Home Services Growth</span>
+  <ul class="footer__links"><li><a href="/articles/">Articles</a></li><li><a href="/case-studies/">Field Notes</a></li><li><a href="/#audit">Get a Free Lead System Audit</a></li><li><a href="https://vonclaro.com">VonClaro.com</a></li></ul>
+</div><p class="footer__copy">&copy; 2025 VonClaro Inc. All rights reserved.</p></div></footer>
+</body>
+</html>
