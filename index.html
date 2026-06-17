@@ -3,570 +3,195 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Services Lead Systems | VonClaro</title>
-  <meta name="description" content="VonClaro fixes the system behind your home services lead generation — campaigns, landing pages, call tracking, follow-up, and attribution from click to booked job." />
+  <title>Lead System Rebuilds — Field Notes | VonClaro Home Services</title>
+  <meta name="description" content="Diagnostic examples from common home services lead system failures. Roofing, HVAC, plumbing, landscaping, electrical, restoration, and more." />
   <link rel="stylesheet" href="/css/content.css" />
   <link rel="icon" href="https://vonclaro.com/favicon.png" />
 </head>
 <body>
-
 <nav class="nav">
   <div class="container">
     <div class="nav__inner">
       <a href="/" class="nav__logo">VonClaro <span class="nav__logo-sep">/</span> Home Services</a>
       <ul class="nav__links">
         <li><a href="/articles/">Articles</a></li>
-        <li><a href="/case-studies/">Case Studies</a></li>
-        <li><a href="#audit">Audit</a></li>
+        <li><a href="/case-studies/">Field Notes</a></li>
+        <li><a href="/#audit">Audit</a></li>
       </ul>
-      <a href="#audit" class="btn btn--primary btn--sm">Get a Free Lead System Audit</a>
+      <a href="/#audit" class="btn btn--primary btn--sm">Get a Free Lead System Audit</a>
     </div>
   </div>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
+<div class="fn-hero">
   <div class="container">
-    <div class="hero__grid">
-      <div class="hero__copy">
-        <div class="hero__kicker">
-          <span class="eyebrow eyebrow--green">VonClaro Home Services</span>
-        </div>
-        <h1 class="hero__h1">Your leads are leaking.<br><em>The ads are only part of the problem.</em></h1>
-        <p class="hero__sub">Most home services companies do not have a traffic problem. They have a lead system problem: weak landing pages, broken tracking, slow follow-up, and no clear path from click to booked job.</p>
-        <div class="hero__actions">
-          <a href="#audit" class="btn btn--primary">Get a Free Lead System Audit</a>
-          <a href="#leakmap" class="btn btn--ghost">See the Leak Map</a>
-        </div>
-        <p class="hero__trust">Roofing &middot; Plumbing &middot; HVAC &middot; Landscaping &middot; Electrical &middot; General Contracting</p>
+    <div class="fn-hero__inner">
+      <div>
+        <span class="eyebrow eyebrow--subtle" style="display:block;margin-bottom:0.75rem;">Field Notes from the Lead System</span>
+        <h1>Lead System Rebuilds</h1>
+        <p style="margin-top:1rem;">Diagnostic examples from common home services lead system failures. Each rebuild follows the same path: find the leak, fix the system, connect the click to the booked job.</p>
       </div>
-
-      <!-- Audit Report Widget -->
-      <div class="audit-report">
-        <div class="audit-report__header">
-          <div>
-            <div class="audit-report__label">Lead Leak Map</div>
-            <div class="audit-report__company">Home Services Account — Diagnostic</div>
-          </div>
-          <div class="audit-report__badge">Leaking</div>
-        </div>
-        <div class="audit-report__stages">
-          <div class="ar-stage">
-            <div class="ar-stage__left">
-              <span class="ar-stage__num">01</span>
-              <span class="ar-stage__dot ar-stage__dot--ok"></span>
-              <span class="ar-stage__name">Paid Traffic</span>
-            </div>
-            <div class="ar-stage__right">
-              <span class="ar-stage__note">Google Ads running</span>
-              <span class="ar-stage__status ar-status--ok">Active</span>
-            </div>
-          </div>
-          <div class="ar-stage ar-stage--issue">
-            <div class="ar-stage__left">
-              <span class="ar-stage__num">02</span>
-              <span class="ar-stage__dot ar-stage__dot--leak"></span>
-              <span class="ar-stage__name">Landing Page</span>
-            </div>
-            <div class="ar-stage__right">
-              <span class="ar-stage__note">Destination: homepage</span>
-              <span class="ar-stage__status ar-status--leak">Leak detected</span>
-            </div>
-          </div>
-          <div class="ar-stage ar-stage--issue">
-            <div class="ar-stage__left">
-              <span class="ar-stage__num">03</span>
-              <span class="ar-stage__dot ar-stage__dot--leak"></span>
-              <span class="ar-stage__name">Call / Form Tracking</span>
-            </div>
-            <div class="ar-stage__right">
-              <span class="ar-stage__note">No attribution configured</span>
-              <span class="ar-stage__status ar-status--leak">Blind spot</span>
-            </div>
-          </div>
-          <div class="ar-stage ar-stage--warn">
-            <div class="ar-stage__left">
-              <span class="ar-stage__num">04</span>
-              <span class="ar-stage__dot ar-stage__dot--warn"></span>
-              <span class="ar-stage__name">Follow-Up</span>
-            </div>
-            <div class="ar-stage__right">
-              <span class="ar-stage__note">Avg. response: 37 min</span>
-              <span class="ar-stage__status ar-status--warn">Slow response</span>
-            </div>
-          </div>
-          <div class="ar-stage ar-stage--warn">
-            <div class="ar-stage__left">
-              <span class="ar-stage__num">05</span>
-              <span class="ar-stage__dot ar-stage__dot--warn"></span>
-              <span class="ar-stage__name">Estimate Request</span>
-            </div>
-            <div class="ar-stage__right">
-              <span class="ar-stage__note">Source: not passed to CRM</span>
-              <span class="ar-stage__status ar-status--warn">Partial visibility</span>
-            </div>
-          </div>
-          <div class="ar-stage ar-stage--issue">
-            <div class="ar-stage__left">
-              <span class="ar-stage__num">06</span>
-              <span class="ar-stage__dot ar-stage__dot--leak"></span>
-              <span class="ar-stage__name">Booked Job</span>
-            </div>
-            <div class="ar-stage__right">
-              <span class="ar-stage__note">Ad source: unknown</span>
-              <span class="ar-stage__status ar-status--leak">Attribution missing</span>
-            </div>
-          </div>
-        </div>
-        <div class="audit-report__footer">
-          <div class="audit-report__finding">
-            <span class="audit-report__finding-label">Primary finding</span>
-            <span class="audit-report__finding-val">3 critical leak points identified</span>
-          </div>
-          <a href="#audit" class="btn btn--primary btn--sm">Request Full Audit</a>
-        </div>
+      <div>
+        <p style="font-size:0.875rem;color:var(--vc-text-muted);line-height:1.7;">These are illustrative examples based on common patterns across home services accounts. They are not presented as verified case study results. Specific outcomes depend on market, budget, and starting conditions.</p>
+        <div class="fn-hero__note">The same six failure points — campaign structure, landing pages, call tracking, follow-up, attribution, and reporting — appear repeatedly across trades. The details differ. The leaks are the same.</div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- TRADES -->
-<div class="trades">
-  <div class="container">
-    <div class="trades__inner">
-      <span class="trades__label">Trades served</span>
-      <ul class="trades__list">
-        <li class="trades__item">Roofing</li>
-        <li class="trades__item">Plumbing</li>
-        <li class="trades__item">HVAC</li>
-        <li class="trades__item">Landscaping</li>
-        <li class="trades__item">Electrical</li>
-        <li class="trades__item">General Contracting</li>
-        <li class="trades__item">Restoration</li>
-      </ul>
     </div>
   </div>
 </div>
 
-<!-- WHERE THE LEAK STARTS — warm editorial -->
-<section class="problem">
+<section class="fn-library">
   <div class="container">
-    <div class="problem__inner">
-      <div class="problem__copy">
-        <span class="eyebrow eyebrow--muted" style="margin-bottom:1rem;display:block;">Where the Leak Starts</span>
-        <h2>Most lead gen problems happen after the click.</h2>
-        <p>More ad spend will not fix a broken lead system. If calls are missed, landing pages are generic, and follow-up is slow, your campaigns are doing their job — the system behind them is not.</p>
-        <p><strong>The companies spending the most are not always the ones booking the most jobs.</strong> The ones winning have a system that converts intent into booked work at every stage.</p>
-        <div class="problem__callout">
-          <p><strong>Common finding:</strong> 35 to 50 percent of ad spend in a typical home services account is consumed by irrelevant searches, poor landing page match, or leads that go cold before any follow-up happens.</p>
-        </div>
-      </div>
-      <div class="leak-list">
-        <div class="leak-row">
-          <div>
-            <div class="leak-row__label">Keyword match types</div>
-            <div class="leak-row__sub">Broad match — emergency keywords mixed with research intent</div>
+    <div class="fn-grid">
+
+      <a href="/case-studies/roofing-lead-system.html" class="fn-card">
+        <div class="fn-card__meta">
+          <p class="fn-card__trade">Roofing</p>
+          <p class="fn-card__market">Ontario market</p>
+          <div class="fn-card__tags">
+            <span class="fn-card__tag fn-card__tag--leak">Google Ads</span>
+            <span class="fn-card__tag fn-card__tag--leak">Landing Pages</span>
+            <span class="fn-card__tag fn-card__tag--leak">Call Tracking</span>
+            <span class="fn-card__tag">Follow-Up</span>
           </div>
-          <span class="leak-row__status status-broken">Wasting budget</span>
         </div>
-        <div class="leak-row">
-          <div>
-            <div class="leak-row__label">Landing page destination</div>
-            <div class="leak-row__sub">Homepage — not built for paid traffic conversion</div>
+        <div class="fn-card__body">
+          <p class="fn-card__leak">Primary leak: Paid traffic sent to homepage</p>
+          <h3>Homepage traffic, no call tracking, broad-match waste</h3>
+          <p>A roofing account with spend flowing into broad-match campaigns and no visibility into calls or booked estimates. Budget reaching the site — but not the phone.</p>
+        </div>
+        <span class="fn-card__cta">Read the rebuild</span>
+      </a>
+
+      <a href="/case-studies/hvac-lead-system.html" class="fn-card">
+        <div class="fn-card__meta">
+          <p class="fn-card__trade">HVAC</p>
+          <p class="fn-card__market">Pacific Northwest</p>
+          <div class="fn-card__tags">
+            <span class="fn-card__tag fn-card__tag--leak">Conversion Tracking</span>
+            <span class="fn-card__tag fn-card__tag--leak">Campaign Structure</span>
+            <span class="fn-card__tag">Budget Allocation</span>
+            <span class="fn-card__tag">Attribution</span>
           </div>
-          <span class="leak-row__status status-broken">Lost intent</span>
         </div>
-        <div class="leak-row">
-          <div>
-            <div class="leak-row__label">Call tracking</div>
-            <div class="leak-row__sub">Missed call: 4:42 PM — no attribution to campaign</div>
+        <div class="fn-card__body">
+          <p class="fn-card__leak">Primary leak: Zero conversion tracking</p>
+          <h3>No conversion tracking, seasonal budget misallocation</h3>
+          <p>Spend running for two years with no tracked conversions. Smart Bidding optimizing toward nothing. Seasonal budget shifting without data to guide it.</p>
+        </div>
+        <span class="fn-card__cta">Read the rebuild</span>
+      </a>
+
+      <a href="/case-studies/plumbing-lead-system.html" class="fn-card">
+        <div class="fn-card__meta">
+          <p class="fn-card__trade">Plumbing</p>
+          <p class="fn-card__market">Urban Canadian market</p>
+          <div class="fn-card__tags">
+            <span class="fn-card__tag fn-card__tag--leak">Keyword Intent</span>
+            <span class="fn-card__tag fn-card__tag--leak">Call Tracking</span>
+            <span class="fn-card__tag">After-Hours</span>
+            <span class="fn-card__tag">Follow-Up</span>
           </div>
-          <span class="leak-row__status status-broken">Invisible</span>
         </div>
-        <div class="leak-row">
-          <div>
-            <div class="leak-row__label">Lead follow-up time</div>
-            <div class="leak-row__sub">Form response time: 37 minutes — lead already called competitor</div>
+        <div class="fn-card__body">
+          <p class="fn-card__leak">Primary leak: Emergency intent mixed with research traffic</p>
+          <h3>High-intent emergency searches buried under research and DIY traffic</h3>
+          <p>Emergency plumbing searches reaching the site but converting poorly. Calls going unanswered after hours. No way to tell which keywords were generating booked calls.</p>
+        </div>
+        <span class="fn-card__cta">Read the rebuild</span>
+      </a>
+
+      <a href="/case-studies/landscaping-lead-system.html" class="fn-card">
+        <div class="fn-card__meta">
+          <p class="fn-card__trade">Landscaping</p>
+          <p class="fn-card__market">Suburban US market</p>
+          <div class="fn-card__tags">
+            <span class="fn-card__tag fn-card__tag--leak">Service Area</span>
+            <span class="fn-card__tag fn-card__tag--leak">Seasonal Budget</span>
+            <span class="fn-card__tag">Landing Pages</span>
+            <span class="fn-card__tag">Tracking</span>
           </div>
-          <span class="leak-row__status status-missing">At risk</span>
         </div>
-        <div class="leak-row">
-          <div>
-            <div class="leak-row__label">Negative keyword list</div>
-            <div class="leak-row__sub">Empty — DIY, job listings, wholesale queries consuming budget</div>
+        <div class="fn-card__body">
+          <p class="fn-card__leak">Primary leak: Service area mismatch, seasonal budget gaps</p>
+          <h3>Seasonal demand captured poorly — wrong areas, wrong timing, no tracking</h3>
+          <p>Spring demand flowing into poorly targeted service areas. Off-season budget running with no clear shutoff logic. Lead quality low, attribution nonexistent.</p>
+        </div>
+        <span class="fn-card__cta">Read the rebuild</span>
+      </a>
+
+      <a href="/case-studies/electrical-lead-system.html" class="fn-card">
+        <div class="fn-card__meta">
+          <p class="fn-card__trade">Electrical</p>
+          <p class="fn-card__market">Competitive metro market</p>
+          <div class="fn-card__tags">
+            <span class="fn-card__tag fn-card__tag--leak">High CPC</span>
+            <span class="fn-card__tag fn-card__tag--leak">Landing Pages</span>
+            <span class="fn-card__tag fn-card__tag--leak">Estimate Flow</span>
+            <span class="fn-card__tag">Attribution</span>
           </div>
-          <span class="leak-row__status status-missing">Leaking</span>
         </div>
-        <div class="leak-row">
-          <div>
-            <div class="leak-row__label">Booked job source</div>
-            <div class="leak-row__sub">Source: Google Ads — not passed to CRM, revenue unattributed</div>
+        <div class="fn-card__body">
+          <p class="fn-card__leak">Primary leak: High CPCs not converting due to weak landing pages</p>
+          <h3>High CPCs, weak landing pages, broken estimate request flow</h3>
+          <p>Expensive clicks in a competitive market landing on a generic service page. Estimate request form buried three pages deep. No way to track which jobs came from ads.</p>
+        </div>
+        <span class="fn-card__cta">Read the rebuild</span>
+      </a>
+
+      <a href="/case-studies/restoration-lead-system.html" class="fn-card">
+        <div class="fn-card__meta">
+          <p class="fn-card__trade">Restoration</p>
+          <p class="fn-card__market">Multi-market US operator</p>
+          <div class="fn-card__tags">
+            <span class="fn-card__tag fn-card__tag--leak">Follow-Up Speed</span>
+            <span class="fn-card__tag fn-card__tag--leak">Lead Routing</span>
+            <span class="fn-card__tag">After-Hours</span>
+            <span class="fn-card__tag">Attribution</span>
           </div>
-          <span class="leak-row__status status-broken">Unknown</span>
         </div>
-      </div>
+        <div class="fn-card__body">
+          <p class="fn-card__leak">Primary leak: Urgent leads lost to slow follow-up and routing gaps</p>
+          <h3>Emergency restoration leads going cold before anyone called back</h3>
+          <p>Water and fire damage leads with urgent intent — calls missed after hours, forms sitting unread. By the time follow-up happened, the homeowner had already booked someone else.</p>
+        </div>
+        <span class="fn-card__cta">Read the rebuild</span>
+      </a>
+
     </div>
   </div>
 </section>
 
-<!-- THE CLICK-TO-BOOKED-JOB PATH — dark, pipeline -->
-<section class="sysmap" id="leakmap">
-  <div class="container">
-    <div class="sysmap__header">
-      <div>
-        <span class="eyebrow eyebrow--subtle">The Click-to-Booked-Job Path</span>
-        <h2>The Lead Leak Map — where revenue disappears between click and job.</h2>
-      </div>
-      <div class="sysmap__header-right">
-        <div class="sysmap__legend">
-          <span class="legend-item"><span class="legend-dot legend-dot--leak"></span>Leak point</span>
-          <span class="legend-item"><span class="legend-dot legend-dot--ok"></span>Working</span>
-        </div>
-        <a href="#audit" class="btn btn--ghost btn--sm">Get a System Audit</a>
-      </div>
+<section style="background:var(--vc-bg);padding:5rem 0;border-top:1px solid var(--vc-border);">
+  <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
+    <div>
+      <span class="eyebrow eyebrow--green" style="display:block;margin-bottom:0.75rem;">Free Lead System Audit</span>
+      <h2 style="font-family:var(--font-disp);font-weight:300;font-size:clamp(1.75rem,3vw,2.4rem);color:var(--vc-text);letter-spacing:-0.02em;line-height:1.1;margin-bottom:1rem;">Recognize your account in any of these?</h2>
+      <p style="font-size:0.9rem;color:var(--vc-text-muted);line-height:1.7;margin-bottom:1.5rem;">The same patterns appear across trades. If your account looks like any of these rebuilds, a diagnostic review will tell you exactly where your leads are leaking and what to fix first.</p>
+      <a href="/#audit" class="btn btn--primary">Get a Free Lead System Audit</a>
     </div>
-    <div class="pipeline">
-      <div class="pipe-row">
-        <div class="pipe-axis">
-          <span class="pipe-axis__label">Stages</span>
-          <span class="pipe-axis__label">Issues found</span>
+    <div style="background:var(--vc-surface);border:1px solid var(--vc-border);border-radius:12px;padding:2rem;">
+      <p style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--vc-text-subtle);margin-bottom:1.25rem;">What the audit covers</p>
+      <div style="display:flex;flex-direction:column;gap:0.625rem;">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--vc-border);font-size:0.8rem;">
+          <span style="color:var(--vc-text-muted);">Campaign structure and keyword intent</span>
+          <span style="font-size:0.6rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--vc-green);background:rgba(124,255,178,0.1);padding:0.15rem 0.5rem;border-radius:999px;">Included</span>
         </div>
-        <div style="flex:1;overflow:hidden;">
-          <div class="pipe-stages pipe-header">
-            <div class="pipe-stage">
-              <p class="pipe-stage__num">01</p>
-              <p class="pipe-stage__name">Ad Campaign</p>
-            </div>
-            <div class="pipe-stage pipe-stage--leak">
-              <p class="pipe-stage__num">02</p>
-              <p class="pipe-stage__name">Landing Page</p>
-            </div>
-            <div class="pipe-stage pipe-stage--leak">
-              <p class="pipe-stage__num">03</p>
-              <p class="pipe-stage__name">Call &amp; Form</p>
-            </div>
-            <div class="pipe-stage">
-              <p class="pipe-stage__num">04</p>
-              <p class="pipe-stage__name">Follow-Up</p>
-            </div>
-            <div class="pipe-stage">
-              <p class="pipe-stage__num">05</p>
-              <p class="pipe-stage__name">Estimate</p>
-            </div>
-            <div class="pipe-stage pipe-stage--leak">
-              <p class="pipe-stage__num">06</p>
-              <p class="pipe-stage__name">Booked Job</p>
-            </div>
-          </div>
-          <div class="pipe-stages pipe-body">
-            <div class="pipe-stage">
-              <ul class="pipe-leaks">
-                <li>Broad match keywords</li>
-                <li>Research intent mixed in</li>
-                <li>No negative keyword list</li>
-              </ul>
-            </div>
-            <div class="pipe-stage pipe-stage--leak">
-              <ul class="pipe-leaks">
-                <li>Homepage as destination</li>
-                <li>No service-specific page</li>
-                <li>6.2s mobile load time</li>
-              </ul>
-              <span class="pipe-stage__tag">High leak</span>
-            </div>
-            <div class="pipe-stage pipe-stage--leak">
-              <ul class="pipe-leaks">
-                <li>No call tracking numbers</li>
-                <li>Missed calls not logged</li>
-                <li>Forms not attributed</li>
-              </ul>
-              <span class="pipe-stage__tag">Blind spot</span>
-            </div>
-            <div class="pipe-stage">
-              <ul class="pipe-leaks">
-                <li>No automated SMS</li>
-                <li>37-min avg response</li>
-                <li>No lead routing rules</li>
-              </ul>
-            </div>
-            <div class="pipe-stage">
-              <ul class="pipe-leaks">
-                <li>Source not in CRM</li>
-                <li>Quote not followed up</li>
-                <li>Close rate not tracked</li>
-              </ul>
-            </div>
-            <div class="pipe-stage pipe-stage--leak">
-              <ul class="pipe-leaks">
-                <li>Revenue not attributed</li>
-                <li>No CRM connection</li>
-                <li>Budget decisions blind</li>
-              </ul>
-              <span class="pipe-stage__tag">No visibility</span>
-            </div>
-          </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--vc-border);font-size:0.8rem;">
+          <span style="color:var(--vc-text-muted);">Landing page and conversion path review</span>
+          <span style="font-size:0.6rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--vc-green);background:rgba(124,255,178,0.1);padding:0.15rem 0.5rem;border-radius:999px;">Included</span>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SPLIT — full bleed comparison -->
-<div class="split">
-  <div class="split__dark">
-    <p class="split__label split__label--dark">Broken system</p>
-    <p class="split__h3 split__h3--dark">What most accounts look like on arrival</p>
-    <ul class="split-list split-list--dark">
-      <li>Broad match sending budget to DIY searchers and job applicants</li>
-      <li>All paid traffic landing on a homepage that was not built to convert</li>
-      <li>Phone calls from ads not tracked — no attribution to campaign or keyword</li>
-      <li>Leads sitting in an inbox for 37 minutes while crews are on job sites</li>
-      <li>Booked job source listed as "unknown" in the CRM every time</li>
-      <li>Increasing ad spend without fixing any of the leaks above</li>
-    </ul>
-  </div>
-  <div class="split__light">
-    <p class="split__label split__label--light">Fixed system</p>
-    <p class="split__h3 split__h3--light">What the same account looks like when the system works</p>
-    <ul class="split-list split-list--light">
-      <li>Intent-based keywords matched to each service and service area</li>
-      <li>Dedicated landing pages for each campaign with one path to a call or estimate</li>
-      <li>Every call attributed back to the campaign and keyword that drove it</li>
-      <li>Automated SMS within 2 minutes of every inbound lead, before it goes cold</li>
-      <li>Every booked job tagged to its ad source in the CRM</li>
-      <li>Budget decisions driven by cost per booked job, not cost per click</li>
-    </ul>
-  </div>
-</div>
-
-<!-- THE SIX FAILURE POINTS — warm -->
-<section class="fixes">
-  <div class="container">
-    <div class="fixes__top">
-      <div>
-        <span class="eyebrow eyebrow--muted" style="margin-bottom:0.75rem;display:block;">The Six Failure Points</span>
-        <h2>Where the system breaks and what we rebuild.</h2>
-      </div>
-      <p>We do not run isolated campaigns. We diagnose the full system from click to booked job, fix each failure point, and operate it continuously so performance compounds over time.</p>
-    </div>
-    <div class="fixes__list">
-      <div class="fix-row">
-        <span class="fix-row__num">01</span>
-        <div>
-          <p class="fix-row__title">Campaign Structure</p>
-          <span class="fix-row__tag">Ad spend</span>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--vc-border);font-size:0.8rem;">
+          <span style="color:var(--vc-text-muted);">Call tracking and form attribution check</span>
+          <span style="font-size:0.6rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--vc-green);background:rgba(124,255,178,0.1);padding:0.15rem 0.5rem;border-radius:999px;">Included</span>
         </div>
-        <p class="fix-row__desc">Rebuilt around high-intent keywords for each service and service area. Exact and phrase match only. Negative keyword lists reviewed weekly so budget reaches buyers — not researchers, job seekers, or wholesale queries.</p>
-      </div>
-      <div class="fix-row">
-        <span class="fix-row__num">02</span>
-        <div>
-          <p class="fix-row__title">Landing Pages</p>
-          <span class="fix-row__tag">Conversion</span>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--vc-border);font-size:0.8rem;">
+          <span style="color:var(--vc-text-muted);">Follow-up speed and routing review</span>
+          <span style="font-size:0.6rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--vc-green);background:rgba(124,255,178,0.1);padding:0.15rem 0.5rem;border-radius:999px;">Included</span>
         </div>
-        <p class="fix-row__desc">Dedicated pages for each campaign: fast on mobile, matched to the ad promise, one clear path to a call or estimate request. No more paying for clicks that land on a homepage built for someone who already knows you.</p>
-      </div>
-      <div class="fix-row">
-        <span class="fix-row__num">03</span>
-        <div>
-          <p class="fix-row__title">Call and Form Tracking</p>
-          <span class="fix-row__tag">Tracking</span>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;font-size:0.8rem;">
+          <span style="color:var(--vc-text-muted);">Booked job attribution and CRM tagging</span>
+          <span style="font-size:0.6rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--vc-green);background:rgba(124,255,178,0.1);padding:0.15rem 0.5rem;border-radius:999px;">Included</span>
         </div>
-        <p class="fix-row__desc">Dynamic call tracking numbers on every page. Every missed call logged. Form conversion events that fire correctly. Full attribution from ad click to phone call to submitted estimate request — so nothing is invisible.</p>
-      </div>
-      <div class="fix-row">
-        <span class="fix-row__num">04</span>
-        <div>
-          <p class="fix-row__title">Lead Follow-Up and Routing</p>
-          <span class="fix-row__tag">Speed to lead</span>
-        </div>
-        <p class="fix-row__desc">Automated SMS within 2 minutes of every inbound lead. Routing rules that get the right inquiry to the right person immediately. No estimate request goes cold while your crew is on a job site.</p>
-      </div>
-      <div class="fix-row">
-        <span class="fix-row__num">05</span>
-        <div>
-          <p class="fix-row__title">Attribution to Booked Jobs</p>
-          <span class="fix-row__tag">Attribution</span>
-        </div>
-        <p class="fix-row__desc">Connect ad spend to actual booked work. Every job in your CRM tagged to its ad source. Know which campaigns, keywords, and service areas are generating revenue — not just clicks that never became estimates.</p>
-      </div>
-      <div class="fix-row">
-        <span class="fix-row__num">06</span>
-        <div>
-          <p class="fix-row__title">Reporting and Optimization</p>
-          <span class="fix-row__tag">Operations</span>
-        </div>
-        <p class="fix-row__desc">Weekly account reviews. Monthly cost-per-booked-job reporting by campaign and service area. Continuous bid, creative, and budget optimization based on what is actually generating booked work — not impressions.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- HOW WE REBUILD THE SYSTEM — dark timeline -->
-<section class="dbo">
-  <div class="container">
-    <div class="dbo__inner">
-      <div class="dbo__intro">
-        <span class="eyebrow eyebrow--green" style="display:block;margin-bottom:0.75rem;">How We Rebuild the System</span>
-        <h2>Diagnose it. Build it. Operate it continuously.</h2>
-        <p>Most agencies hand you a campaign and a monthly report. We hand you a system that compounds — every week the tracking improves, every month the budget allocation gets sharper, every quarter the cost per booked job goes down.</p>
-        <div style="margin-top:2rem;">
-          <a href="#audit" class="btn btn--primary">Get a Free Lead System Audit</a>
-        </div>
-      </div>
-      <div class="dbo__timeline">
-        <div class="dbo__phase">
-          <div class="dbo__phase-dot"></div>
-          <p class="dbo__phase-label">01 — Diagnose</p>
-          <h3>System Audit</h3>
-          <p>We map your full lead system: campaigns, landing pages, call tracking, follow-up automation, and revenue attribution. You see every leak point and why it exists before we touch anything.</p>
-        </div>
-        <div class="dbo__phase">
-          <div class="dbo__phase-dot"></div>
-          <p class="dbo__phase-label">02 — Build</p>
-          <h3>System Rebuild</h3>
-          <p>We rebuild each failure point. Campaigns restructured to intent. Landing pages built for conversion. Call tracking wired to every touchpoint. Follow-up automated. Revenue attribution connected to booked jobs in your CRM.</p>
-        </div>
-        <div class="dbo__phase">
-          <div class="dbo__phase-dot"></div>
-          <p class="dbo__phase-label">03 — Operate</p>
-          <h3>Continuous Operation</h3>
-          <p>We run and continuously improve the system. Weekly bid and budget reviews. Monthly reporting on cost per booked job by service area and campaign. Ongoing creative testing and conversion optimization at every stage.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WHAT CHANGES WHEN THE LEAKS ARE FIXED — warm -->
-<section class="improvements">
-  <div class="container">
-    <div class="improvements__header">
-      <div>
-        <span class="eyebrow eyebrow--muted" style="display:block;margin-bottom:0.75rem;">What Changes When the Leaks Are Fixed</span>
-        <h2>Consistent patterns across home services accounts.</h2>
-      </div>
-      <p>These are patterns we see repeatedly after fixing the six failure points. Results vary by market, budget, and starting point — but the direction is consistent.</p>
-    </div>
-    <div class="improvements__grid">
-      <div class="improvement-item">
-        <p class="improvement-item__area">Ad Spend</p>
-        <p class="improvement-item__title">Wasted spend drops when broad match is replaced with intent-based keywords</p>
-        <ul class="improvement-item__list">
-          <li>Irrelevant queries blocked by a maintained negative keyword list</li>
-          <li>Cost per click decreases as Quality Scores improve with better landing page match</li>
-          <li>Budget concentrates on searches from homeowners ready to book, not browse</li>
-        </ul>
-      </div>
-      <div class="improvement-item">
-        <p class="improvement-item__area">Landing Pages</p>
-        <p class="improvement-item__title">Conversion rate increases when traffic lands on purpose-built pages</p>
-        <ul class="improvement-item__list">
-          <li>Service-specific pages outperform homepages consistently across trades</li>
-          <li>Mobile-optimized pages with a single CTA reduce abandonment</li>
-          <li>Cost per estimate falls as the same spend converts more visitors into requests</li>
-        </ul>
-      </div>
-      <div class="improvement-item">
-        <p class="improvement-item__area">Call Tracking</p>
-        <p class="improvement-item__title">Visibility into which campaigns are driving booked jobs, not just clicks</p>
-        <ul class="improvement-item__list">
-          <li>Call tracking reveals which keywords and campaigns generate real inbound volume</li>
-          <li>Smart Bidding improves materially when fed accurate conversion signal</li>
-          <li>Budget reallocation becomes data-driven instead of based on gut feel</li>
-        </ul>
-      </div>
-      <div class="improvement-item">
-        <p class="improvement-item__area">Follow-Up</p>
-        <p class="improvement-item__title">More estimates booked when lead response drops from 37 minutes to 2</p>
-        <ul class="improvement-item__list">
-          <li>Automated SMS within 2 minutes of every inbound lead, regardless of crew schedule</li>
-          <li>Fewer leads go cold while the owner is on a job site or driving between stops</li>
-          <li>Higher booking rate from the same lead volume without increasing ad spend</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FREE LEAD SYSTEM AUDIT + FORM -->
-<section class="wyg" id="audit">
-  <div class="container">
-    <div class="wyg__inner">
-      <div class="wyg__copy">
-        <span class="eyebrow eyebrow--brass" style="display:block;margin-bottom:0.75rem;">Free Lead System Audit</span>
-        <h2>Request your diagnostic report.</h2>
-        <p>We review your campaigns, landing pages, call tracking, forms, follow-up, and conversion paths. You get a written diagnostic with every leak point identified and a prioritized list of what to fix before increasing ad spend.</p>
-        <ul class="wyg__list">
-          <li>Where paid traffic is losing intent before the call or form</li>
-          <li>Whether landing pages are built to convert service buyers</li>
-          <li>Whether calls, forms, and follow-up are being tracked and attributed correctly</li>
-          <li>Where speed-to-lead or lead routing may be costing booked jobs</li>
-          <li>What to fix first, what to fix next, and what to leave alone</li>
-        </ul>
-        <div class="wyg__checklist">
-          <p class="wyg__checklist-label">Audit covers</p>
-          <div class="wyg__checklist-items">
-            <span class="wyg__check">Google Ads</span>
-            <span class="wyg__check">Meta</span>
-            <span class="wyg__check">Landing Pages</span>
-            <span class="wyg__check">Call Tracking</span>
-            <span class="wyg__check">Form Attribution</span>
-            <span class="wyg__check">Follow-Up</span>
-            <span class="wyg__check">CRM Source Tagging</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <form class="audit-form" name="home-services-audit" method="POST" data-netlify="true" action="/thank-you.html">
-          <input type="hidden" name="form-name" value="home-services-audit" />
-          <div class="form-group">
-            <label for="name">Your name</label>
-            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Work email</label>
-            <input type="email" id="email" name="email" placeholder="jane@smithroofing.com" required />
-          </div>
-          <div class="form-group">
-            <label for="company">Company name</label>
-            <input type="text" id="company" name="company" placeholder="Smith Roofing Ltd." required />
-          </div>
-          <div class="form-group">
-            <label for="website">Website</label>
-            <input type="url" id="website" name="website" placeholder="https://smithroofing.com" />
-          </div>
-          <div class="form-group">
-            <label for="trade">Primary trade</label>
-            <select id="trade" name="trade" required>
-              <option value="" disabled selected>Select your trade</option>
-              <option value="roofing">Roofing</option>
-              <option value="plumbing">Plumbing</option>
-              <option value="hvac">HVAC</option>
-              <option value="landscaping">Landscaping / Lawn Care</option>
-              <option value="electrical">Electrical</option>
-              <option value="general-contracting">General Contracting</option>
-              <option value="restoration">Restoration</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="budget">Monthly ad spend (approx.)</label>
-            <select id="budget" name="budget" required>
-              <option value="" disabled selected>Select range</option>
-              <option value="under-2k">Under $2,000/mo</option>
-              <option value="2k-5k">$2,000 – $5,000/mo</option>
-              <option value="5k-15k">$5,000 – $15,000/mo</option>
-              <option value="15k-plus">$15,000+/mo</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="situation">Biggest lead problem right now (optional)</label>
-            <textarea id="situation" name="situation" placeholder="e.g. We are spending $4k/month and cannot tell which campaigns are generating booked jobs..."></textarea>
-          </div>
-          <button type="submit" class="form-submit-btn">Request My Lead System Audit</button>
-          <p class="form-note">Written diagnostic delivered within 2 business days. Canada and US only.</p>
-        </form>
       </div>
     </div>
   </div>
@@ -578,14 +203,13 @@
       <span class="footer__brand">VonClaro / Home Services Growth</span>
       <ul class="footer__links">
         <li><a href="/articles/">Articles</a></li>
-        <li><a href="/case-studies/">Case Studies</a></li>
-        <li><a href="#audit">Get a Free Lead System Audit</a></li>
+        <li><a href="/case-studies/">Field Notes</a></li>
+        <li><a href="/#audit">Get a Free Lead System Audit</a></li>
         <li><a href="https://vonclaro.com">VonClaro.com</a></li>
       </ul>
     </div>
     <p class="footer__copy">&copy; 2025 VonClaro Inc. All rights reserved.</p>
   </div>
 </footer>
-
 </body>
 </html>
